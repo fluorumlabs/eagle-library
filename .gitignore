@@ -1,0 +1,5 @@
+# Eagle backup files
+*.b#*
+*.s#*
+*.l#*
+*~renumsch.scr

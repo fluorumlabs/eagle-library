@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="+3.3V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.858" x2="0" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="0" y1="8.128" x2="-1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.858" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+3.3V</text>
+<pin name="+3.3V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+5V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="4.826" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="4.826" x2="0" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="0" y1="6.096" x2="-1.27" y2="4.826" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="4.826" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+5V</text>
+<pin name="+5V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+15V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.096" x2="0" y2="7.366" width="0.1524" layer="91"/>
+<wire x1="0" y1="7.366" x2="-1.27" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.096" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+15V</text>
+<pin name="+15V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="-15V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.096" x2="0" y2="7.366" width="0.1524" layer="91"/>
+<wire x1="0" y1="7.366" x2="-1.27" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.096" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">-15V</text>
+<pin name="-15V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.6096" layer="91"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.6096" layer="91"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="point" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="CHASSIS">
+<wire x1="-2.032" y1="0" x2="-1.016" y2="0" width="0.254" layer="91"/>
+<wire x1="-1.016" y1="0" x2="0" y2="0" width="0.254" layer="91"/>
+<wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="91"/>
+<wire x1="1.016" y1="0" x2="2.032" y2="0" width="0.254" layer="91"/>
+<wire x1="2.032" y1="0" x2="1.016" y2="-1.27" width="0.254" layer="91"/>
+<wire x1="1.016" y1="0" x2="0" y2="-1.27" width="0.254" layer="91"/>
+<wire x1="0" y1="0" x2="-1.016" y2="-1.27" width="0.254" layer="91"/>
+<wire x1="-1.016" y1="0" x2="-2.032" y2="-1.27" width="0.254" layer="91"/>
+<wire x1="-2.032" y1="0" x2="-3.048" y2="-1.27" width="0.254" layer="91"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<pin name="CHASSIS" x="0" y="2.54" visible="off" length="point" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="EARTH">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="91"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="91"/>
+<wire x1="-0.3683" y1="-1.016" x2="0.3683" y2="-1.016" width="0.254" layer="91"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<pin name="EARTH" x="0" y="2.54" visible="off" length="point" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="DGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.6096" layer="91"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<text x="0.508" y="0.762" size="0.8128" layer="91" ratio="12">D</text>
+<pin name="DGND" x="0" y="2.54" visible="off" length="point" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="+2.5V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.858" x2="0" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="0" y1="8.128" x2="-1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.858" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+2.5V</text>
+<pin name="+2.5V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+1.0V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.858" x2="0" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="0" y1="8.128" x2="-1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.858" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+1.0V</text>
+<pin name="+1.0V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+1.2V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.858" x2="0" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="0" y1="8.128" x2="-1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.858" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+1.2V</text>
+<pin name="+1.2V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+1.25V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="8.128" x2="0" y2="9.398" width="0.1524" layer="91"/>
+<wire x1="0" y1="9.398" x2="-1.27" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="8.128" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+1.25V</text>
+<pin name="+1.25V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+1.8V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="6.858" x2="0" y2="8.128" width="0.1524" layer="91"/>
+<wire x1="0" y1="8.128" x2="-1.27" y2="6.858" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="6.858" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+1.8V</text>
+<pin name="+1.8V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="+3.3V" prefix="PWR">
+<gates>
+<gate name="G$1" symbol="+3.3V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" prefix="PWR">
+<gates>
+<gate name="G$1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+15V" prefix="PWR">
+<gates>
+<gate name="G$1" symbol="+15V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-15V" prefix="PWR">
+<gates>
+<gate name="G$1" symbol="-15V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<gates>
+<gate name="VR1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CHASSIS" prefix="GND">
+<gates>
+<gate name="1" symbol="CHASSIS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EARTH" prefix="PE">
+<gates>
+<gate name="M" symbol="EARTH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND" prefix="GND">
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+2.5V">
+<gates>
+<gate name="G$1" symbol="+2.5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+1.0V">
+<gates>
+<gate name="G$1" symbol="+1.0V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+1.2V">
+<gates>
+<gate name="G$1" symbol="+1.2V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+1.25V">
+<gates>
+<gate name="G$1" symbol="+1.25V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+1.8V">
+<gates>
+<gate name="G$1" symbol="+1.8V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

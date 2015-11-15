@@ -1,0 +1,58 @@
+set palette black;
+
+set palette  0 0xFF000000;
+set palette  1 0xB43232C8;
+set palette  2 0xB432C832;
+set palette  3 0xB432C8C8;
+set palette  4 0xB4C83232;
+set palette  5 0xB4C832C8;
+set palette  6 0xB4C8C832;
+set palette  7 0xB4C8C8C8;
+set palette  8 0xB4646464;
+set palette  9 0xB40000FF;
+set palette 10 0xB400FF00;
+set palette 11 0xB400FFFF;
+set palette 12 0xB4FF0000;
+set palette 13 0xB4FF00FF;
+set palette 14 0xB4FFFF00;
+set palette 15 0xB4FFFFFF;
+
+set palette colored;
+
+set palette  0 0xFFEEEECE;
+set palette  1 0xB4000080;
+set palette  2 0xB4008000;
+set palette  3 0xB4008080;
+set palette  4 0xB4800000;
+set palette  5 0xB4800080;
+set palette  6 0xB4808000;
+set palette  7 0xB4808080;
+set palette  8 0xB4C0C0C0;
+set palette  9 0xB40000FF;
+set palette 10 0xB400FF00;
+set palette 11 0xB400FFFF;
+set palette 12 0xB4FF0000;
+set palette 13 0xB4FF00FF;
+set palette 14 0xB4FFFF00;
+set palette 15 0xB4000000;
+
+set palette white
+
+SET PALETTE 0 0xFFFFFFFF
+SET PALETTE 1 0xFFd0d0d0
+SET PALETTE 2 0xFF808080
+SET PALETTE 3 0xFFd0d0d0
+SET PALETTE 4 0xFFd0d0d0
+SET PALETTE 5 0xFFd0d0d0
+SET PALETTE 6 0xFFc00000
+SET PALETTE 7 0xFF000000
+SET PALETTE 8 0xFF808080
+SET PALETTE 9 0xFF0000c0
+SET PALETTE 10 0xFF00c000
+SET PALETTE 11 0xFF008080
+SET PALETTE 12 0xFFc00000
+SET PALETTE 13 0xFF808000
+SET PALETTE 14 0xFFFF0000
+SET PALETTE 15 0xFF000000
+SET PALETTE 16 0xFFc0c0c0
+SET PALETTE 17 0x80F0F0F0
