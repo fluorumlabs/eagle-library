@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -503,6 +503,29 @@ Solder type</description>
 <wire x1="1.75" y1="2.5" x2="0.25" y2="2.5" width="0.127" layer="51"/>
 <wire x1="0.25" y1="2.5" x2="0.25" y2="0" width="0.127" layer="51"/>
 <text x="0" y="-1" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="108-0052-EVX">
+<pad name="1" x="-2.54" y="-2.54" drill="1.1" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="1.1"/>
+<pad name="3" x="-2.54" y="2.54" drill="1.1"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.1"/>
+<pad name="5" x="2.54" y="0" drill="1.1"/>
+<pad name="6" x="2.54" y="2.54" drill="1.1"/>
+<wire x1="-4.57" y1="4.06" x2="4.57" y2="4.06" width="0.127" layer="21"/>
+<wire x1="4.57" y1="4.06" x2="4.57" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="4.57" y1="-4.06" x2="-4.57" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="-4.57" y1="-4.06" x2="-4.57" y2="4.06" width="0.127" layer="21"/>
+<text x="0" y="5.08" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="108-0051-EVX">
+<pad name="1" x="0" y="-2.54" drill="1.1" shape="square"/>
+<pad name="2" x="0" y="0" drill="1.1"/>
+<pad name="3" x="0" y="2.54" drill="1.1"/>
+<wire x1="-3" y1="4.06" x2="3" y2="4.06" width="0.127" layer="21"/>
+<wire x1="3" y1="4.06" x2="3" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="3" y1="-4.06" x2="-3" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="-3" y1="-4.06" x2="-3" y2="4.06" width="0.127" layer="21"/>
+<text x="0" y="5.08" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1114,6 +1137,48 @@ Solder type</description>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="642-MJS22R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="108-0051-EVX" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-2POS-BUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="108-0051-EVX">
+<connects>
+<connect gate="G$1" pin="CM" pad="2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="108-0051-EVX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="108-0052-EVX" prefix="SA">
+<gates>
+<gate name=".1" symbol="SWITCH-2POS-BUTTON" x="0" y="5.08" swaplevel="1"/>
+<gate name=".2" symbol="SWITCH-2POS-BUTTON" x="0" y="-5.08" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="108-0052-EVX">
+<connects>
+<connect gate=".1" pin="CM" pad="2"/>
+<connect gate=".1" pin="NC" pad="1"/>
+<connect gate=".1" pin="NO" pad="3"/>
+<connect gate=".2" pin="CM" pad="5"/>
+<connect gate=".2" pin="NC" pad="4"/>
+<connect gate=".2" pin="NO" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="108-0052-EVX" constant="no"/>
 </technology>
 </technologies>
 </device>
