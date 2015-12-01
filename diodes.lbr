@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -671,6 +671,25 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="512-DF01M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV199" prefix="VD">
+<gates>
+<gate name="G$1" symbol="DIODE-X2-AC-AC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="CMN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="771-BAV199-T/R" constant="no"/>
 </technology>
 </technologies>
 </device>
