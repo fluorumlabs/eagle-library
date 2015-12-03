@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1110,9 +1110,272 @@
 <gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="B20K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="688-RK11K113002F" constant="no"/>
+<attribute name="MOUSER_" value="858-P110KH0F25BR20K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(CD)" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK11K1130A07" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1M" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-4425AB105
+" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-4425AB103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B5K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="858-P090S-04F25BR5K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A100K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113AF25A15" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A500K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113AF25A55" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B100K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113BF25B15" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B50K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-3415AB503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A100K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV1113415AA104" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B5K(CD)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB502" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B20K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB203" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B100K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB104" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB103
+" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB102
+" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A50K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FA503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B50K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB102" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A20K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FA203" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A10K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A4025FA103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A10K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-3415AA103" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
