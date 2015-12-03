@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -527,6 +527,43 @@ Solder type</description>
 <wire x1="-3" y1="-4.06" x2="-3" y2="4.06" width="0.127" layer="21"/>
 <text x="0" y="5.08" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="SRBV">
+<pad name="5" x="-5" y="-9.15" drill="0.9"/>
+<pad name="4" x="-2.5" y="-9.15" drill="0.9"/>
+<pad name="3" x="0" y="-9.15" drill="0.9"/>
+<pad name="2" x="2.5" y="-9.15" drill="0.9"/>
+<pad name="1" x="5" y="-9.15" drill="0.9"/>
+<pad name="6" x="-5" y="9.15" drill="0.9"/>
+<pad name="7" x="-2.5" y="9.15" drill="0.9"/>
+<pad name="8" x="0" y="9.15" drill="0.9"/>
+<pad name="9" x="2.5" y="9.15" drill="0.9"/>
+<pad name="10" x="5" y="9.15" drill="0.9"/>
+<pad name="S1" x="-8" y="1.1" drill="2"/>
+<pad name="S2" x="8" y="1.1" drill="2"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<wire x1="8" y1="-7" x2="7" y2="-8" width="0.127" layer="21" curve="-90"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.127" layer="21"/>
+<wire x1="-7" y1="-8" x2="-8" y2="-7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-8" y1="-7" x2="-8" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-8" y1="-0.75" x2="-8" y2="2.75" width="0.127" layer="51"/>
+<wire x1="-8" y1="2.75" x2="-8" y2="9" width="0.127" layer="21"/>
+<wire x1="-8" y1="9" x2="-7" y2="10" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7" y1="10" x2="7" y2="10" width="0.127" layer="21"/>
+<wire x1="7" y1="10" x2="8" y2="9" width="0.127" layer="21" curve="-90"/>
+<wire x1="8" y1="9" x2="8" y2="2.75" width="0.127" layer="21"/>
+<wire x1="8" y1="2.75" x2="8" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="8" y1="-0.75" x2="8" y2="-7" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="7" y="-7" radius="0.5" width="0.127" layer="21"/>
+<circle x="-7" y="-7" radius="0.5" width="0.127" layer="21"/>
+<circle x="7" y="9" radius="0.5" width="0.127" layer="21"/>
+<circle x="-7" y="9" radius="0.5" width="0.127" layer="21"/>
+<text x="0" y="-7.5" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<rectangle x1="6.5" y1="8.5" x2="8.5" y2="10.5" layer="41" rot="R180"/>
+<rectangle x1="-8.5" y1="8.5" x2="-6.5" y2="10.5" layer="41" rot="R180"/>
+<rectangle x1="-8.5" y1="-8.5" x2="-7" y2="-6.5" layer="41" rot="R180"/>
+<rectangle x1="7" y1="-8.5" x2="8.5" y2="-6.5" layer="41" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH">
@@ -814,6 +851,21 @@ Solder type</description>
 <vertex x="1.524" y="0" curve="-90"/>
 </polygon>
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="SWITCH-8POS">
+<pin name="CM" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="1" x="7.62" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-7.62" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="94" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.86" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="4" x="7.62" y="-10.16" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-15.24" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-17.78" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-20.32" visible="off" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1179,6 +1231,117 @@ Solder type</description>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="108-0052-EVX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRBV160803" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-6POS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SRBV">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="7"/>
+<connect gate="G$1" pin="CM" pad="1 10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-SRBV160803" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRBV141404" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-4POS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SRBV">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="CM" pad="1 10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-SRBV141404" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRBV151102" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-5POS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SRBV">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="CM" pad="1 10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-SRBV151102" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRBV181004" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-8POS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRBV">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="7"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="9"/>
+<connect gate="G$1" pin="CM" pad="1 10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRBV131803" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-5POS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SRBV">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="CM" pad="1 10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-SRBV131803" constant="no"/>
 </technology>
 </technologies>
 </device>
