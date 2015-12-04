@@ -633,6 +633,17 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="BAS16" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="863-BAS16LT3G" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="MMBD3004BRM" prefix="VD">
