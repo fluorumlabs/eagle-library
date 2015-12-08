@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -208,7 +208,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" stop="no" cream="no"/>
 <smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
-<text x="0" y="3.81" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.81" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
 <rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
 <rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
@@ -329,19 +329,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <gate name="G$1" symbol="POSITIVE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NCP1117ST50T3G" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="863-NCP1117ST50T3G" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="NJM78L05UA" package="SOT89">
+<device name="L78L05ACU" package="SOT89">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 2@1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
@@ -349,7 +337,19 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="513-NJM78L05UA-TE1" constant="no"/>
+<attribute name="MOUSER" value="511-L78L05ACU" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L78L33ACU" package="SOT89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 2@1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="511-L78L33ACU" constant="no"/>
 </technology>
 </technologies>
 </device>
