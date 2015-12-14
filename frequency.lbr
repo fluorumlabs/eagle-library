@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -152,6 +152,23 @@
 <pad name="2" x="0.8" y="0" drill="0.5"/>
 <text x="0" y="2.54" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="3215">
+<wire x1="-1.6" y1="0.75" x2="-0.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="-0.5" y1="0.75" x2="0.5" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0.75" x2="1.6" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="0.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="0.5" y1="-0.75" x2="-0.5" y2="-0.75" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-0.75" x2="-1.6" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="0.175" width="0" layer="21"/>
+<smd name="1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="0" y="2" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.635" y1="-0.9525" x2="0.635" y2="0.9525" layer="39"/>
+<rectangle x1="-1.5875" y1="-0.635" x2="1.5875" y2="0.635" layer="40"/>
+<rectangle x1="-0.635" y1="-0.9525" x2="0.635" y2="0.9525" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="QUARTZ">
@@ -187,6 +204,15 @@
 </technologies>
 </device>
 <device name="8MHZ(H)" package="D3.2-HORIZ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="32.768KHZ" package="3215">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
