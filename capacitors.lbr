@@ -430,6 +430,17 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="27P" package="C-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="77-VJ0805A270GXACBC" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
