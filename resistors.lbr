@@ -1220,6 +1220,28 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <technology name=""/>
 </technologies>
 </device>
+<device name="20R" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD20R0F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10R" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD10R0F" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ERA-?33J*V" prefix="R" uservalue="yes">
