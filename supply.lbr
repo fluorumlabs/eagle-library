@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -306,7 +306,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1.25V">
+<deviceset name="+1.25V" prefix="PWR">
 <gates>
 <gate name="G$1" symbol="+1.25V" x="0" y="0"/>
 </gates>
@@ -318,7 +318,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1.8V">
+<deviceset name="+1.8V" prefix="PWR">
 <gates>
 <gate name="G$1" symbol="+1.8V" x="0" y="0"/>
 </gates>
