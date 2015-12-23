@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -109,6 +109,12 @@
 <rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
 <rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
 <rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+<rectangle x1="-1.524" y1="2.032" x2="-1.016" y2="4.064" layer="41"/>
+<rectangle x1="-0.254" y1="2.032" x2="0.254" y2="4.064" layer="41"/>
+<rectangle x1="1.016" y1="2.032" x2="1.524" y2="4.064" layer="41"/>
+<rectangle x1="-1.524" y1="-4.064" x2="-1.016" y2="-2.032" layer="41"/>
+<rectangle x1="-0.254" y1="-4.064" x2="0.254" y2="-2.032" layer="41"/>
+<rectangle x1="1.016" y1="-4.064" x2="1.524" y2="-2.032" layer="41"/>
 </package>
 <package name="DIP-14">
 <wire x1="-8.255" y1="2.921" x2="-8.89" y2="2.286" width="0.1524" layer="21" curve="90"/>
