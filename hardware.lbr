@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -191,8 +191,8 @@
 <wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
 </symbol>
 <symbol name="MISC_COMPONENT_MINI">
-<text x="0" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
-<text x="-1.27" y="0" size="1.4224" layer="94" align="bottom-right">&gt;NAME</text>
+<text x="6.35" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<text x="0" y="0" size="1.4224" layer="94" rot="MR0" align="bottom-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -415,7 +415,7 @@
 </deviceset>
 <deviceset name="*?" prefix="U">
 <gates>
-<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="0" y="0"/>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="5.08" y="0"/>
 </gates>
 <devices>
 <device name="SCREW-M2X8" package="EMPTY">

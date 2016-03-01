@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -383,6 +383,16 @@
 <technology name="">
 <attribute name="MOUSER" value="757-2SC3324BLTE85LF" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="BC548" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
