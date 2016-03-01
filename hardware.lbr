@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -189,6 +189,10 @@
 <text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MISC_COMPONENT_MINI">
+<text x="0" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<text x="-1.27" y="0" size="1.4224" layer="94" align="bottom-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -405,6 +409,23 @@
 <technology name="">
 <attribute name="MOUSER" value="450-CP195" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*?" prefix="U">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SCREW-M2X8" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NUT-M2-SELFLOCK" package="EMPTY">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
