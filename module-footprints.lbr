@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -854,6 +854,133 @@
 <circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="96" y="22" radius="1.6" width="0.4064" layer="42"/>
 </package>
+<package name="ST2-BOARD-50-END">
+<text x="0" y="52" size="2.54" layer="51" align="center-left">TOP</text>
+<text x="100" y="52" size="2.54" layer="52" rot="MR0" align="center-left">BOTTOM</text>
+<wire x1="98" y1="50" x2="2" y2="50" width="0" layer="48" style="longdash"/>
+<wire x1="2" y1="50" x2="0" y2="48" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="0" y1="48" x2="0" y2="2" width="0" layer="48" style="longdash"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="2" y1="0" x2="98" y2="0" width="0" layer="48" style="longdash"/>
+<wire x1="98" y1="0" x2="100" y2="2" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="100" y1="2" x2="100" y2="48" width="0" layer="48" style="longdash"/>
+<wire x1="100" y1="48" x2="98" y2="50" width="0" layer="48" style="longdash" curve="90"/>
+<hole x="4" y="4" drill="2.2"/>
+<hole x="4" y="46" drill="2.2"/>
+<hole x="96" y="4" drill="2.2"/>
+<hole x="96" y="46" drill="2.2"/>
+<hole x="35" y="46" drill="2.2"/>
+<hole x="65" y="46" drill="2.2"/>
+<hole x="65" y="4" drill="2.2"/>
+<hole x="35" y="4" drill="2.2"/>
+<rectangle x1="0" y1="43" x2="7" y2="50" layer="39"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="39" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="39" rot="R180"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="39"/>
+<rectangle x1="62" y1="43" x2="68" y2="50" layer="39" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="39"/>
+<rectangle x1="7" y1="46" x2="32" y2="50" layer="39"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="39"/>
+<rectangle x1="32" y1="43" x2="38" y2="50" layer="39" rot="R180"/>
+<rectangle x1="93" y1="43" x2="100" y2="50" layer="39"/>
+<rectangle x1="68" y1="46" x2="93" y2="50" layer="39"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="39"/>
+<rectangle x1="0" y1="43" x2="7" y2="50" layer="40"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="40" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="40" rot="R180"/>
+<rectangle x1="93" y1="43" x2="100" y2="50" layer="40"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="40"/>
+<rectangle x1="32" y1="43" x2="38" y2="50" layer="40" rot="R180"/>
+<rectangle x1="62" y1="43" x2="68" y2="50" layer="40" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="40"/>
+<rectangle x1="7" y1="46" x2="32" y2="50" layer="40"/>
+<rectangle x1="38" y1="0" x2="62" y2="7" layer="40" rot="R180"/>
+<rectangle x1="68" y1="46" x2="93" y2="50" layer="40"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="40"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="40"/>
+<rectangle x1="38" y1="46" x2="62" y2="50" layer="40" rot="R180"/>
+<wire x1="17" y1="-3" x2="18" y2="-5" width="0.127" layer="43"/>
+<wire x1="18" y1="-5" x2="16" y2="-5" width="0.127" layer="43"/>
+<wire x1="16" y1="-5" x2="17" y2="-3" width="0.127" layer="43"/>
+<wire x1="39" y1="-3" x2="38" y2="-5" width="0.127" layer="43"/>
+<wire x1="38" y1="-5" x2="40" y2="-5" width="0.127" layer="43"/>
+<wire x1="40" y1="-5" x2="39" y2="-3" width="0.127" layer="43"/>
+<wire x1="61" y1="-3" x2="60" y2="-5" width="0.127" layer="43"/>
+<wire x1="60" y1="-5" x2="62" y2="-5" width="0.127" layer="43"/>
+<wire x1="62" y1="-5" x2="61" y2="-3" width="0.127" layer="43"/>
+<wire x1="83" y1="-3" x2="82" y2="-5" width="0.127" layer="43"/>
+<wire x1="82" y1="-5" x2="84" y2="-5" width="0.127" layer="43"/>
+<wire x1="84" y1="-5" x2="83" y2="-3" width="0.127" layer="43"/>
+<wire x1="-6" y1="25" x2="-8" y2="26" width="0.127" layer="43"/>
+<wire x1="-8" y1="26" x2="-8" y2="24" width="0.127" layer="43"/>
+<wire x1="-8" y1="24" x2="-6" y2="25" width="0.127" layer="43"/>
+<wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
+<wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
+<wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
+<wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
+<wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
+<wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
+<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="center">fluorumlabs.com</text>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
+<rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
+<rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
+<rectangle x1="96" y1="7" x2="100" y2="43" layer="40"/>
+<wire x1="61.375" y1="0" x2="38.625" y2="0" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="0" x2="38.625" y2="10" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="10" x2="61.375" y2="10" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="10" x2="61.375" y2="0" width="0.1524" layer="21"/>
+<hole x="59.025" y="5.405" drill="2.2"/>
+<hole x="40.975" y="5.405" drill="2.2"/>
+<pad name="A+15" x="44.285" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALMIX" x="46.825" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALFBK" x="49.365" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ACV1" x="51.905" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ASMBDAT" x="54.445" y="7.31" drill="0.8" rot="R180"/>
+<pad name="A-15" x="45.555" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARMIX" x="48.095" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARFBK" x="50.635" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ACV2" x="53.175" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ASMBCLK" x="55.715" y="9.215" drill="0.8" rot="R180"/>
+<pad name="B-15" x="45.555" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B4" x="48.095" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B6" x="50.635" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B8" x="53.175" y="5.405" drill="0.8" rot="R180"/>
+<pad name="BINR" x="55.715" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B+15" x="44.285" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BSENSE" x="46.825" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B5" x="49.365" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B7" x="51.905" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BINL" x="54.445" y="3.5" drill="0.8" rot="R180"/>
+<wire x1="58.815" y1="0" x2="58.815" y2="-5" width="0.1524" layer="51"/>
+<wire x1="58.815" y1="-5" x2="57.815" y2="-6" width="0.1524" layer="51" curve="-90"/>
+<wire x1="57.815" y1="-6" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="44.5" y1="-6" x2="43.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="42.185" y2="-6" width="0.1524" layer="51"/>
+<wire x1="42.185" y1="-6" x2="41.185" y2="-5" width="0.1524" layer="51" curve="-90"/>
+<wire x1="41.185" y1="-5" x2="41.185" y2="0" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="44" y2="-5" width="0.1524" layer="51"/>
+<wire x1="44" y1="-5" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<rectangle x1="38" y1="46" x2="62" y2="50" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SMBUS">
@@ -1488,6 +1615,39 @@
 <connect gate=".6" pin="PIN" pad="B6 T6"/>
 <connect gate=".7" pin="PIN" pad="B7 T7"/>
 <connect gate=".8" pin="PIN" pad="B8 T8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ST2-BOARD-50-END" prefix="PCB" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VERSION" x="-25.4" y="17.78"/>
+<gate name="G$2" symbol="INL" x="-25.4" y="10.16"/>
+<gate name="G$3" symbol="INR" x="-25.4" y="2.54"/>
+<gate name="G$6" symbol="BUS-LEFT" x="-25.4" y="-5.08"/>
+<gate name="G$8" symbol="SMBUS" x="-25.4" y="-35.56"/>
+<gate name="G$9" symbol="SUPPLY" x="-25.4" y="-55.88"/>
+</gates>
+<devices>
+<device name="" package="ST2-BOARD-50-END">
+<connects>
+<connect gate="G$2" pin="INL" pad="BINL"/>
+<connect gate="G$3" pin="INR" pad="BINR"/>
+<connect gate="G$6" pin="CV1" pad="ACV1"/>
+<connect gate="G$6" pin="CV2" pad="ACV2"/>
+<connect gate="G$6" pin="LFBK" pad="ALFBK"/>
+<connect gate="G$6" pin="LMIX" pad="ALMIX"/>
+<connect gate="G$6" pin="RFBK" pad="ARFBK"/>
+<connect gate="G$6" pin="RMIX" pad="ARMIX"/>
+<connect gate="G$6" pin="SENSE" pad="BSENSE"/>
+<connect gate="G$8" pin="SMBCLK" pad="ASMBCLK"/>
+<connect gate="G$8" pin="SMBDAT" pad="ASMBDAT"/>
+<connect gate="G$9" pin="GND" pad="B4 B5 B6 B7 B8"/>
+<connect gate="G$9" pin="P+15V" pad="A+15 B+15"/>
+<connect gate="G$9" pin="P-15V" pad="A-15 B-15"/>
 </connects>
 <technologies>
 <technology name=""/>
