@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.1">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -804,6 +804,35 @@
 <wire x1="-0.508" y1="0.8255" x2="-0.508" y2="1.8415" width="0.1524" layer="51"/>
 <wire x1="1.016" y1="1.3335" x2="-0.635" y2="1.3335" width="0.1524" layer="51"/>
 </package>
+<package name="PTB6044">
+<wire x1="-8" y1="44" x2="8" y2="44" width="0.127" layer="21"/>
+<wire x1="8" y1="44" x2="8" y2="-44" width="0.127" layer="21"/>
+<wire x1="8" y1="-44" x2="-8" y2="-44" width="0.127" layer="21"/>
+<wire x1="-8" y1="-44" x2="-8" y2="44" width="0.127" layer="21"/>
+<circle x="0" y="40" radius="1.5" width="0.127" layer="51"/>
+<circle x="0" y="-40" radius="1.5" width="0.127" layer="51"/>
+<wire x1="2" y1="35" x2="2" y2="-35" width="0.127" layer="51"/>
+<wire x1="2" y1="-35" x2="1" y2="-36" width="0.127" layer="51" curve="-90"/>
+<wire x1="1" y1="-36" x2="-1" y2="-36" width="0.127" layer="51"/>
+<wire x1="-1" y1="-36" x2="-2" y2="-35" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2" y1="-35" x2="-2" y2="35" width="0.127" layer="51"/>
+<wire x1="-2" y1="35" x2="-1" y2="36" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1" y1="36" x2="1" y2="36" width="0.127" layer="51"/>
+<wire x1="1" y1="36" x2="2" y2="35" width="0.127" layer="51" curve="-90"/>
+<wire x1="-0.6" y1="-34" x2="0.6" y2="-34" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-34" x2="0.6" y2="-26" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-26" x2="-0.6" y2="-26" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-26" x2="-0.6" y2="-34" width="0.127" layer="51"/>
+<text x="-7" y="43" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-right">&gt;NAME</text>
+<pad name="S$1" x="0" y="-25.85" drill="2"/>
+<pad name="S$2" x="0" y="25.85" drill="2"/>
+<pad name="A2" x="-5.625" y="-43.75" drill="1.4"/>
+<pad name="A1" x="-1.875" y="-43.75" drill="1.4"/>
+<pad name="B1" x="1.875" y="-43.75" drill="1.4"/>
+<pad name="B2" x="5.625" y="-43.75" drill="1.4"/>
+<pad name="A3" x="-1.875" y="43.75" drill="1.4"/>
+<pad name="B3" x="1.875" y="43.75" drill="1.4"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POTENTIOMETER">
@@ -1544,6 +1573,27 @@
 <technology name="">
 <attribute name="MOUSER" value="858-64WR10KLF" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2**?(PTB60)" prefix="R">
+<gates>
+<gate name=".1" symbol="POTENTIOMETER" x="0" y="5.08"/>
+<gate name=".2" symbol="POTENTIOMETER" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="A10K" package="PTB6044">
+<connects>
+<connect gate=".1" pin="CCW" pad="A1"/>
+<connect gate=".1" pin="CW" pad="A3"/>
+<connect gate=".1" pin="W" pad="A2"/>
+<connect gate=".2" pin="CCW" pad="B1"/>
+<connect gate=".2" pin="CW" pad="B3"/>
+<connect gate=".2" pin="W" pad="B2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
