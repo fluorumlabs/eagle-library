@@ -1443,6 +1443,16 @@
 </technology>
 </technologies>
 </device>
+<device name="B100K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="2**?" prefix="R">

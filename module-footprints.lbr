@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -981,6 +981,8 @@
 <text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
 <text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
+<package name="EMPTY">
+</package>
 </packages>
 <symbols>
 <symbol name="SMBUS">
@@ -1649,6 +1651,18 @@
 <connect gate="G$9" pin="P+15V" pad="A+15 B+15"/>
 <connect gate="G$9" pin="P-15V" pad="A-15 B-15"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GENERIC" prefix="PCB" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VERSION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EMPTY">
 <technologies>
 <technology name=""/>
 </technologies>

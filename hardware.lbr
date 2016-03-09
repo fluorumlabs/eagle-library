@@ -440,6 +440,18 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="OTHER" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
