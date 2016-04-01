@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="4.6" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2040,22 +2040,22 @@
 </package>
 <package name="USB-MB-H">
 <description>&lt;b&gt;USB Series Mini-B Hole Mounted&lt;/b&gt;</description>
-<wire x1="-4.6" y1="3.9" x2="-4.6" y2="-3.9" width="0.127" layer="21"/>
-<wire x1="5.25" y1="3.9" x2="5.25" y2="-3.9" width="0.127" layer="21"/>
-<wire x1="-4.6" y1="3.9" x2="5.25" y2="3.9" width="0.127" layer="21"/>
-<wire x1="-4.6" y1="-3.9" x2="5.25" y2="-3.9" width="0.127" layer="21"/>
-<pad name="VBUS" x="5.1" y="1.6" drill="0.6"/>
-<pad name="D+" x="5.1" y="0" drill="0.6"/>
-<pad name="GND" x="5.1" y="-1.6" drill="0.6"/>
-<pad name="D-" x="3.9" y="0.8" drill="0.6"/>
-<pad name="ID" x="3.9" y="-0.8" drill="0.6"/>
-<pad name="P$6" x="-0.6" y="-3.65" drill="1.5"/>
-<pad name="P$7" x="-0.6" y="3.65" drill="1.5"/>
-<text x="-4" y="0" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-3.75" y1="-3.1" x2="-1.425" y2="3.1" layer="43"/>
-<rectangle x1="-1.425" y1="-2.325" x2="-0.65" y2="2.325" layer="43"/>
-<pad name="P$1" x="4.2" y="3.65" drill="1.5"/>
-<pad name="P$2" x="4.2" y="-3.65" drill="1.5"/>
+<wire x1="0" y1="3.9" x2="0" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="9.85" y1="3.9" x2="9.85" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="0" y1="3.9" x2="9.85" y2="3.9" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.9" x2="9.85" y2="-3.9" width="0.127" layer="21"/>
+<pad name="VBUS" x="9.7" y="1.6" drill="0.6"/>
+<pad name="D+" x="9.7" y="0" drill="0.6"/>
+<pad name="GND" x="9.7" y="-1.6" drill="0.6"/>
+<pad name="D-" x="8.5" y="0.8" drill="0.6"/>
+<pad name="ID" x="8.5" y="-0.8" drill="0.6"/>
+<pad name="P$6" x="4" y="-3.65" drill="1.5"/>
+<pad name="P$7" x="4" y="3.65" drill="1.5"/>
+<text x="0.6" y="0" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
+<rectangle x1="0.85" y1="-3.1" x2="3.175" y2="3.1" layer="43"/>
+<rectangle x1="3.175" y1="-2.325" x2="3.95" y2="2.325" layer="43"/>
+<pad name="P$1" x="8.8" y="3.65" drill="1.5"/>
+<pad name="P$2" x="8.8" y="-3.65" drill="1.5"/>
 </package>
 </packages>
 <symbols>
