@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -584,6 +584,32 @@ Solder type</description>
 <wire x1="1.246" y1="-1.4" x2="1.5" y2="-1.146" width="0.127" layer="51" curve="90"/>
 <wire x1="1.5" y1="-1.146" x2="1.5" y2="0" width="0.127" layer="51"/>
 <text x="0" y="7" size="0.8128" layer="51" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="APEM-MHS233K">
+<wire x1="-8" y1="-3.4" x2="8" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="8" y1="-3.4" x2="8" y2="3.4" width="0.127" layer="21"/>
+<wire x1="8" y1="3.4" x2="-8" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-8" y1="3.4" x2="-8" y2="-3.4" width="0.127" layer="21"/>
+<circle x="-2" y="0" radius="2.2" width="0.127" layer="51"/>
+<circle x="-2" y="0" radius="2" width="0.127" layer="51"/>
+<wire x1="-4" y1="2" x2="-2.9" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="2" x2="4" y2="2" width="0.127" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.127" layer="51"/>
+<wire x1="4" y1="-2" x2="-1.1" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2.9" y1="-2" x2="-4" y2="-2" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2" x2="-4" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="-4" y1="0.9" x2="-4" y2="2" width="0.127" layer="51"/>
+<pad name="S2" x="7.5" y="-3.15" drill="1.4"/>
+<pad name="S1" x="-7.5" y="3.15" drill="1.4"/>
+<pad name="CMN" x="0" y="1.25" drill="0.9"/>
+<pad name="3" x="4" y="1.25" drill="0.9"/>
+<pad name="1" x="-4" y="1.25" drill="0.9" shape="square"/>
+<text x="-7" y="0" size="0.8128" layer="25" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
+<pad name="1'" x="-4" y="-1.29" drill="0.9"/>
+<pad name="CMN'" x="0" y="-1.29" drill="0.9"/>
+<pad name="3'" x="4" y="-1.29" drill="0.9"/>
+<pad name="2" x="2" y="1.25" drill="0.9"/>
+<pad name="2'" x="2" y="-1.29" drill="0.9"/>
 </package>
 </packages>
 <symbols>
@@ -1393,6 +1419,29 @@ Solder type</description>
 <technology name="">
 <attribute name="MOUSER" value="688-SKHLLF" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MHS233K" prefix="SA">
+<gates>
+<gate name=".1" symbol="SWITCH-3POS" x="0" y="0" swaplevel="1"/>
+<gate name=".2" symbol="SWITCH-3POS" x="0" y="-17.78" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="APEM-MHS233K">
+<connects>
+<connect gate=".1" pin="1" pad="1"/>
+<connect gate=".1" pin="2" pad="2"/>
+<connect gate=".1" pin="3" pad="3"/>
+<connect gate=".1" pin="CM" pad="CMN"/>
+<connect gate=".2" pin="1" pad="1'"/>
+<connect gate=".2" pin="2" pad="2'"/>
+<connect gate=".2" pin="3" pad="3'"/>
+<connect gate=".2" pin="CM" pad="CMN'"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

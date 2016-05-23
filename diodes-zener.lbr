@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.1">
+<eagle version="7.5.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -550,6 +550,15 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <technology name="">
 <attribute name="MOUSER" value="583-1N5232B-B" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="10V(1N4740)" package="DO41-10">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

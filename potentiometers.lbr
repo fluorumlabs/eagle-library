@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1566,6 +1566,45 @@
 </technology>
 </technologies>
 </device>
+<device name="B5K" package="RV11-DUAL">
+<connects>
+<connect gate=".1" pin="CCW" pad="1"/>
+<connect gate=".1" pin="CW" pad="3"/>
+<connect gate=".1" pin="W" pad="2"/>
+<connect gate=".2" pin="CCW" pad="1'"/>
+<connect gate=".2" pin="CW" pad="3'"/>
+<connect gate=".2" pin="W" pad="2'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B50K" package="RV11-DUAL">
+<connects>
+<connect gate=".1" pin="CCW" pad="1"/>
+<connect gate=".1" pin="CW" pad="3"/>
+<connect gate=".1" pin="W" pad="2"/>
+<connect gate=".2" pin="CCW" pad="1'"/>
+<connect gate=".2" pin="CW" pad="3'"/>
+<connect gate=".2" pin="W" pad="2'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A50K" package="RV11-DUAL">
+<connects>
+<connect gate=".1" pin="CCW" pad="1"/>
+<connect gate=".1" pin="CW" pad="3"/>
+<connect gate=".1" pin="W" pad="2"/>
+<connect gate=".2" pin="CCW" pad="1'"/>
+<connect gate=".2" pin="CW" pad="3'"/>
+<connect gate=".2" pin="W" pad="2'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="?(64W/Y)" prefix="R">
@@ -1583,6 +1622,26 @@
 <technology name="">
 <attribute name="MOUSER" value="858-64WR10KLF" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="100R" package="64W">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="S S@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="100K" package="64W">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="S S@1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="F3188">
+<wire x1="-6.75" y1="-26.2" x2="-6.75" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="0" x2="6.75" y2="0" width="0.127" layer="21"/>
+<wire x1="6.75" y1="0" x2="6.75" y2="-26.2" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-26.2" x2="-6.75" y2="-26.2" width="0.127" layer="21"/>
+<smd name="P$18" x="-4.75" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$19" x="-3.55" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$20" x="-2.35" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$21" x="-1.15" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$22" x="0.05" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$23" x="1.25" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$24" x="2.45" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$25" x="3.65" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$26" x="4.85" y="-26.2" dx="1.27" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$17" x="-6.75" y="-24.2" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$16" x="-6.75" y="-23.0875" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$15" x="-6.75" y="-21.975" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$14" x="-6.75" y="-20.8625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$13" x="-6.75" y="-19.75" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$12" x="-6.75" y="-18.6375" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$11" x="-6.75" y="-17.525" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$10" x="-6.75" y="-16.4125" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$9" x="-6.75" y="-15.3" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$8" x="-6.75" y="-14.1875" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$7" x="-6.75" y="-13.075" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$6" x="-6.75" y="-11.9625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$5" x="-6.75" y="-10.85" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$4" x="-6.75" y="-9.7375" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$3" x="-6.75" y="-8.625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$2" x="-6.75" y="-7.5125" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$1" x="-6.75" y="-6.4" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$27" x="6.75" y="-24.2" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$28" x="6.75" y="-23.0875" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$29" x="6.75" y="-21.975" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$30" x="6.75" y="-20.8625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$31" x="6.75" y="-19.75" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$32" x="6.75" y="-18.6375" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$33" x="6.75" y="-17.525" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$34" x="6.75" y="-16.4125" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$35" x="6.75" y="-15.3" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$36" x="6.75" y="-14.1875" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$37" x="6.75" y="-13.075" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$38" x="6.75" y="-11.9625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$39" x="6.75" y="-10.85" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$40" x="6.75" y="-9.7375" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$41" x="6.75" y="-8.625" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$42" x="6.75" y="-7.5125" dx="1.27" dy="0.6" layer="1"/>
+<smd name="P$43" x="6.75" y="-6.4" dx="1.27" dy="0.6" layer="1"/>
+<wire x1="5.65" y1="-1" x2="2.35" y2="-1" width="0.127" layer="22"/>
+<wire x1="2.35" y1="-1" x2="2.35" y2="-2.8" width="0.127" layer="22"/>
+<wire x1="2.35" y1="-2.8" x2="1.45" y2="-2.8" width="0.127" layer="22"/>
+<wire x1="1.45" y1="-2.8" x2="1.45" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="1.45" y1="-1.1" x2="0.55" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="0.55" y1="-1.1" x2="0.55" y2="-3.1" width="0.127" layer="22"/>
+<wire x1="0.55" y1="-3.1" x2="-0.25" y2="-3.1" width="0.127" layer="22"/>
+<wire x1="-0.25" y1="-3.1" x2="-0.25" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="-0.25" y1="-1.1" x2="-1.25" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="-1.25" y1="-1.1" x2="-1.25" y2="-3.7" width="0.127" layer="22"/>
+<wire x1="-1.25" y1="-3.7" x2="-2.25" y2="-3.7" width="0.127" layer="22"/>
+<wire x1="-2.25" y1="-3.7" x2="-2.25" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="-2.25" y1="-1.1" x2="-3.55" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="-3.55" y1="-1.1" x2="-3.55" y2="-4.9" width="0.127" layer="22"/>
+<text x="0" y="-27.7" size="0.8128" layer="25" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="F3188">
+<pin name="LED2" x="-35.56" y="40.64" visible="pad" length="middle"/>
+<pin name="LED1" x="-35.56" y="35.56" visible="pad" length="middle"/>
+<pin name="LED0" x="-35.56" y="30.48" visible="pad" length="middle"/>
+<pin name="AIO0" x="-35.56" y="25.4" visible="pad" length="middle"/>
+<pin name="SPI_MISO/PIO3" x="-35.56" y="20.32" visible="pad" length="middle"/>
+<pin name="SPI_CSB/PIO4" x="-35.56" y="15.24" visible="pad" length="middle"/>
+<pin name="SPI_CLK/PIO5" x="-35.56" y="10.16" visible="pad" length="middle"/>
+<pin name="SPI_MOSI/PIO2" x="-35.56" y="5.08" visible="pad" length="middle"/>
+<pin name="SPI_PCM" x="-35.56" y="0" visible="pad" length="middle"/>
+<pin name="UART_TX/PIO1" x="-35.56" y="-5.08" visible="pad" length="middle"/>
+<pin name="UART_RX/PIO0" x="-35.56" y="-10.16" visible="pad" length="middle"/>
+<pin name="VBUS" x="-35.56" y="-15.24" visible="pad" length="middle" direction="pwr"/>
+<pin name="RST#" x="-35.56" y="-20.32" visible="pad" length="middle"/>
+<pin name="BAT" x="-35.56" y="-25.4" visible="pad" length="middle" direction="pwr"/>
+<pin name="POWER_EN" x="-35.56" y="-30.48" visible="pad" length="middle"/>
+<pin name="VBUS_1.8V" x="-35.56" y="-35.56" visible="pad" length="middle" direction="pwr"/>
+<pin name="GND" x="-35.56" y="-40.64" visible="pad" length="middle" direction="pwr"/>
+<wire x1="-30.48" y1="45.72" x2="-30.48" y2="-45.72" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="-45.72" x2="30.48" y2="-45.72" width="0.6096" layer="94"/>
+<pin name="CHG_EXT" x="-20.32" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="BAT_SENSE" x="-15.24" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="PIO10/QSPI_FLASH_CLK" x="-10.16" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="PIO11/QSPI_IO_0" x="-5.08" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="PIO12/QSPI_FLASH_CS" x="0" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="PIO13/QSPI_IO_1" x="5.08" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="USB_N" x="10.16" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="USB_P" x="15.24" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="PIO9/UART_CTS" x="20.32" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<wire x1="30.48" y1="-45.72" x2="30.48" y2="45.72" width="0.6096" layer="94"/>
+<wire x1="30.48" y1="45.72" x2="-30.48" y2="45.72" width="0.6096" layer="94"/>
+<pin name="PIO6" x="35.56" y="-40.64" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO7" x="35.56" y="-35.56" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO8/UART_RTS" x="35.56" y="-30.48" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO18" x="35.56" y="-25.4" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO19" x="35.56" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO20" x="35.56" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO21" x="35.56" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="MIC_BIAS" x="35.56" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="MIC_AN" x="35.56" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="MIC_AP" x="35.56" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="MIC_BN" x="35.56" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="MIC_BP" x="35.56" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="SPK_R_N1" x="35.56" y="20.32" visible="pad" length="middle" rot="R180"/>
+<pin name="SPK_R_P1" x="35.56" y="25.4" visible="pad" length="middle" rot="R180"/>
+<pin name="SPK_L_N1" x="35.56" y="30.48" visible="pad" length="middle" rot="R180"/>
+<pin name="SPK_L_P1" x="35.56" y="35.56" visible="pad" length="middle" rot="R180"/>
+<pin name="RFOUT" x="35.56" y="40.64" visible="pad" length="middle" rot="R180"/>
+<text x="-30.48" y="-48.26" size="1.27" layer="94">&gt;NAME</text>
+<text x="-29.21" y="40.64" size="1.27" layer="94" rot="R180" align="center-right">LED2</text>
+<text x="-29.21" y="35.56" size="1.27" layer="94" rot="R180" align="center-right">LED1</text>
+<text x="-29.21" y="30.48" size="1.27" layer="94" rot="R180" align="center-right">LED0</text>
+<text x="-29.21" y="25.4" size="1.27" layer="94" rot="R180" align="center-right">AIO0</text>
+<text x="-29.21" y="20.32" size="1.27" layer="94" rot="R180" align="center-right">SPI_MISO</text>
+<text x="-29.21" y="15.24" size="1.27" layer="94" rot="R180" align="center-right">SPI_CSB</text>
+<text x="-29.21" y="10.16" size="1.27" layer="94" rot="R180" align="center-right">SPI_CLK</text>
+<text x="-29.21" y="5.08" size="1.27" layer="94" rot="R180" align="center-right">SPI_MOSI</text>
+<text x="-29.21" y="0" size="1.27" layer="94" rot="R180" align="center-right">SPI_PCM</text>
+<text x="-29.21" y="-5.08" size="1.27" layer="94" rot="R180" align="center-right">UART_TX</text>
+<text x="-29.21" y="-10.16" size="1.27" layer="94" rot="R180" align="center-right">UART_RX</text>
+<text x="-29.21" y="-15.24" size="1.27" layer="94" rot="R180" align="center-right">VBUS</text>
+<text x="-29.21" y="-20.32" size="1.27" layer="94" rot="R180" align="center-right">!RST</text>
+<text x="-29.21" y="-25.4" size="1.27" layer="94" rot="R180" align="center-right">BAT</text>
+<text x="-29.21" y="-30.48" size="1.27" layer="94" rot="R180" align="center-right">POWER_EN</text>
+<text x="-29.21" y="-35.56" size="1.27" layer="94" rot="R180" align="center-right">1.8V</text>
+<text x="-29.21" y="-40.64" size="1.27" layer="94" rot="R180" align="center-right">GND</text>
+<text x="-20.32" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">CHG_EXT</text>
+<text x="-15.24" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">BAT_SENSE</text>
+<text x="-10.16" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">QSPI_FLASH_CLK</text>
+<text x="-5.08" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">QSPI_IO_0</text>
+<text x="0" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">QSPI_FLASH_CS</text>
+<text x="5.08" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">QSPI_IO_1</text>
+<text x="10.16" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">USB_N</text>
+<text x="15.24" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">USB_P</text>
+<text x="20.32" y="-44.45" size="1.27" layer="94" rot="R270" align="center-right">UART_CTS</text>
+<text x="29.21" y="-40.64" size="1.27" layer="94" align="center-right">PIO6</text>
+<text x="29.21" y="-35.56" size="1.27" layer="94" align="center-right">PIO7</text>
+<text x="29.21" y="-30.48" size="1.27" layer="94" align="center-right">UART_RTS</text>
+<text x="29.21" y="-25.4" size="1.27" layer="94" align="center-right">PIO18</text>
+<text x="29.21" y="-20.32" size="1.27" layer="94" align="center-right">PIO19</text>
+<text x="29.21" y="-15.24" size="1.27" layer="94" align="center-right">PIO20</text>
+<text x="29.21" y="-10.16" size="1.27" layer="94" align="center-right">PIO21</text>
+<text x="29.21" y="-5.08" size="1.27" layer="94" align="center-right">MIC_BIAS</text>
+<text x="29.21" y="0" size="1.27" layer="94" align="center-right">MIC_AN</text>
+<text x="29.21" y="5.08" size="1.27" layer="94" align="center-right">MIC_AP</text>
+<text x="29.21" y="10.16" size="1.27" layer="94" align="center-right">MIC_BN</text>
+<text x="29.21" y="15.24" size="1.27" layer="94" align="center-right">MIC_BP</text>
+<text x="29.21" y="20.32" size="1.27" layer="94" align="center-right">SPK_R_N</text>
+<text x="29.21" y="25.4" size="1.27" layer="94" align="center-right">SPK_R_P</text>
+<text x="29.21" y="30.48" size="1.27" layer="94" align="center-right">SPK_L_N</text>
+<text x="29.21" y="35.56" size="1.27" layer="94" align="center-right">SPK_L_P</text>
+<text x="29.21" y="40.64" size="1.27" layer="94" align="center-right">RFOUT</text>
+<text x="0" y="0" size="2.54" layer="94" align="center">F-3188</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="F3188" prefix="A">
+<gates>
+<gate name="G$1" symbol="F3188" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="F3188">
+<connects>
+<connect gate="G$1" pin="AIO0" pad="P$4"/>
+<connect gate="G$1" pin="BAT" pad="P$14"/>
+<connect gate="G$1" pin="BAT_SENSE" pad="P$19"/>
+<connect gate="G$1" pin="CHG_EXT" pad="P$18"/>
+<connect gate="G$1" pin="GND" pad="P$17"/>
+<connect gate="G$1" pin="LED0" pad="P$3"/>
+<connect gate="G$1" pin="LED1" pad="P$2"/>
+<connect gate="G$1" pin="LED2" pad="P$1"/>
+<connect gate="G$1" pin="MIC_AN" pad="P$35"/>
+<connect gate="G$1" pin="MIC_AP" pad="P$36"/>
+<connect gate="G$1" pin="MIC_BIAS" pad="P$34"/>
+<connect gate="G$1" pin="MIC_BN" pad="P$37"/>
+<connect gate="G$1" pin="MIC_BP" pad="P$38"/>
+<connect gate="G$1" pin="PIO10/QSPI_FLASH_CLK" pad="P$20"/>
+<connect gate="G$1" pin="PIO11/QSPI_IO_0" pad="P$21"/>
+<connect gate="G$1" pin="PIO12/QSPI_FLASH_CS" pad="P$22"/>
+<connect gate="G$1" pin="PIO13/QSPI_IO_1" pad="P$23"/>
+<connect gate="G$1" pin="PIO18" pad="P$30"/>
+<connect gate="G$1" pin="PIO19" pad="P$31"/>
+<connect gate="G$1" pin="PIO20" pad="P$32"/>
+<connect gate="G$1" pin="PIO21" pad="P$33"/>
+<connect gate="G$1" pin="PIO6" pad="P$27"/>
+<connect gate="G$1" pin="PIO7" pad="P$28"/>
+<connect gate="G$1" pin="PIO8/UART_RTS" pad="P$29"/>
+<connect gate="G$1" pin="PIO9/UART_CTS" pad="P$26"/>
+<connect gate="G$1" pin="POWER_EN" pad="P$15"/>
+<connect gate="G$1" pin="RFOUT" pad="P$43"/>
+<connect gate="G$1" pin="RST#" pad="P$13"/>
+<connect gate="G$1" pin="SPI_CLK/PIO5" pad="P$7"/>
+<connect gate="G$1" pin="SPI_CSB/PIO4" pad="P$6"/>
+<connect gate="G$1" pin="SPI_MISO/PIO3" pad="P$5"/>
+<connect gate="G$1" pin="SPI_MOSI/PIO2" pad="P$8"/>
+<connect gate="G$1" pin="SPI_PCM" pad="P$9"/>
+<connect gate="G$1" pin="SPK_L_N1" pad="P$41"/>
+<connect gate="G$1" pin="SPK_L_P1" pad="P$42"/>
+<connect gate="G$1" pin="SPK_R_N1" pad="P$39"/>
+<connect gate="G$1" pin="SPK_R_P1" pad="P$40"/>
+<connect gate="G$1" pin="UART_RX/PIO0" pad="P$11"/>
+<connect gate="G$1" pin="UART_TX/PIO1" pad="P$10"/>
+<connect gate="G$1" pin="USB_N" pad="P$24"/>
+<connect gate="G$1" pin="USB_P" pad="P$25"/>
+<connect gate="G$1" pin="VBUS" pad="P$12"/>
+<connect gate="G$1" pin="VBUS_1.8V" pad="P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

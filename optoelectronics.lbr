@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.5.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1431,6 +1431,50 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
 <connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLP222A" prefix="U">
+<gates>
+<gate name="A" symbol="OPTO-LED" x="-7.62" y="0"/>
+<gate name="B" symbol="OPTO-SSR" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL04">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="C" pad="2"/>
+<connect gate="B" pin="S1" pad="3"/>
+<connect gate="B" pin="S2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLP222A-2" prefix="U">
+<gates>
+<gate name=".1A" symbol="OPTO-LED" x="-7.62" y="7.62"/>
+<gate name=".2A" symbol="OPTO-LED" x="-7.62" y="-7.62"/>
+<gate name=".1B" symbol="OPTO-SSR" x="7.62" y="7.62"/>
+<gate name=".2B" symbol="OPTO-SSR" x="7.62" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate=".1A" pin="A" pad="1"/>
+<connect gate=".1A" pin="C" pad="2"/>
+<connect gate=".1B" pin="S1" pad="7"/>
+<connect gate=".1B" pin="S2" pad="8"/>
+<connect gate=".2A" pin="A" pad="3"/>
+<connect gate=".2A" pin="C" pad="4"/>
+<connect gate=".2B" pin="S1" pad="5"/>
+<connect gate=".2B" pin="S2" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

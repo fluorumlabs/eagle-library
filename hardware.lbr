@@ -411,6 +411,11 @@
 </technology>
 </technologies>
 </device>
+<device name="P151(15MM,RED/WHITE)" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="*?" prefix="U">

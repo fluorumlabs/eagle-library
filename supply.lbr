@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,6 +172,15 @@
 <text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">+1.8V</text>
 <pin name="+1.8V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="-5V">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="4.826" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="4.826" x2="0" y2="6.096" width="0.1524" layer="91"/>
+<wire x1="0" y1="6.096" x2="-1.27" y2="4.826" width="0.1524" layer="91"/>
+<wire x1="-1.27" y1="4.826" x2="-1.27" y2="0" width="0.1524" layer="91"/>
+<text x="0.762" y="0.508" size="1.524" layer="91" rot="R90">-5V</text>
+<pin name="-5V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+3.3V" prefix="PWR">
@@ -321,6 +330,18 @@
 <deviceset name="+1.8V" prefix="PWR">
 <gates>
 <gate name="G$1" symbol="+1.8V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-5V" prefix="PWR">
+<gates>
+<gate name="G$1" symbol="-5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
