@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1136,6 +1136,44 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technologies>
 <technology name=""/>
 <technology name="HC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICM7555?" prefix="DA">
+<gates>
+<gate name=".1" symbol="555" x="0" y="0"/>
+<gate name="*" symbol="SUPPLY" x="27.94" y="-22.86"/>
+</gates>
+<devices>
+<device name="IP" package="DIP-8">
+<connects>
+<connect gate="*" pin="V+" pad="8"/>
+<connect gate="*" pin="V-" pad="1"/>
+<connect gate=".1" pin="!RESET" pad="4"/>
+<connect gate=".1" pin="!TRIGGER" pad="2"/>
+<connect gate=".1" pin="CONTROL" pad="5"/>
+<connect gate=".1" pin="DISCHARGE" pad="7"/>
+<connect gate=".1" pin="OUT" pad="3"/>
+<connect gate=".1" pin="THRESHOLD" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IB" package="SO-8">
+<connects>
+<connect gate="*" pin="V+" pad="8"/>
+<connect gate="*" pin="V-" pad="1"/>
+<connect gate=".1" pin="!RESET" pad="4"/>
+<connect gate=".1" pin="!TRIGGER" pad="2"/>
+<connect gate=".1" pin="CONTROL" pad="5"/>
+<connect gate=".1" pin="DISCHARGE" pad="7"/>
+<connect gate=".1" pin="OUT" pad="3"/>
+<connect gate=".1" pin="THRESHOLD" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

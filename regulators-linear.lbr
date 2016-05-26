@@ -386,6 +386,23 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="78L33" prefix="DA">
+<gates>
+<gate name="G$1" symbol="POSITIVE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
