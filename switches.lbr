@@ -611,6 +611,20 @@ Solder type</description>
 <pad name="2" x="2" y="1.25" drill="0.9"/>
 <pad name="2'" x="2" y="-1.29" drill="0.9"/>
 </package>
+<package name="NKK-SS14MDH2">
+<pad name="NO2" x="2.54" y="-2" drill="0.8"/>
+<pad name="C" x="0" y="-2" drill="0.8"/>
+<pad name="NC1" x="5.08" y="-2" drill="0.8"/>
+<wire x1="-7.9" y1="-4" x2="7.9" y2="-4" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-4" x2="7.9" y2="0" width="0.127" layer="21"/>
+<wire x1="7.9" y1="0" x2="-7.9" y2="0" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="0" x2="-7.9" y2="-4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="0" x2="1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="2.5" x2="0.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.25" y1="2.5" x2="0.25" y2="0" width="0.127" layer="51"/>
+<text x="0" y="-1" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<pad name="NO3" x="-5.08" y="-2" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH">
@@ -1439,6 +1453,24 @@ Solder type</description>
 <connect gate=".2" pin="2" pad="2'"/>
 <connect gate=".2" pin="3" pad="3'"/>
 <connect gate=".2" pin="CM" pad="CMN'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS14MDH2" prefix="SA">
+<gates>
+<gate name="G$1" symbol="SWITCH-3POS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NKK-SS14MDH2">
+<connects>
+<connect gate="G$1" pin="1" pad="NC1"/>
+<connect gate="G$1" pin="2" pad="NO2"/>
+<connect gate="G$1" pin="3" pad="NO3"/>
+<connect gate="G$1" pin="CM" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>

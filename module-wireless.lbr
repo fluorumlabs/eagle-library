@@ -124,53 +124,53 @@
 </packages>
 <symbols>
 <symbol name="F3188">
-<pin name="LED2" x="-35.56" y="40.64" visible="pad" length="middle"/>
-<pin name="LED1" x="-35.56" y="35.56" visible="pad" length="middle"/>
-<pin name="LED0" x="-35.56" y="30.48" visible="pad" length="middle"/>
-<pin name="AIO0" x="-35.56" y="25.4" visible="pad" length="middle"/>
-<pin name="SPI_MISO/PIO3" x="-35.56" y="20.32" visible="pad" length="middle"/>
-<pin name="SPI_CSB/PIO4" x="-35.56" y="15.24" visible="pad" length="middle"/>
-<pin name="SPI_CLK/PIO5" x="-35.56" y="10.16" visible="pad" length="middle"/>
-<pin name="SPI_MOSI/PIO2" x="-35.56" y="5.08" visible="pad" length="middle"/>
-<pin name="SPI_PCM" x="-35.56" y="0" visible="pad" length="middle"/>
-<pin name="UART_TX/PIO1" x="-35.56" y="-5.08" visible="pad" length="middle"/>
-<pin name="UART_RX/PIO0" x="-35.56" y="-10.16" visible="pad" length="middle"/>
-<pin name="VBUS" x="-35.56" y="-15.24" visible="pad" length="middle" direction="pwr"/>
-<pin name="RST#" x="-35.56" y="-20.32" visible="pad" length="middle"/>
-<pin name="BAT" x="-35.56" y="-25.4" visible="pad" length="middle" direction="pwr"/>
-<pin name="POWER_EN" x="-35.56" y="-30.48" visible="pad" length="middle"/>
-<pin name="VBUS_1.8V" x="-35.56" y="-35.56" visible="pad" length="middle" direction="pwr"/>
-<pin name="GND" x="-35.56" y="-40.64" visible="pad" length="middle" direction="pwr"/>
+<pin name="LED2" x="-35.56" y="40.64" visible="off" length="middle"/>
+<pin name="LED1" x="-35.56" y="35.56" visible="off" length="middle"/>
+<pin name="LED0" x="-35.56" y="30.48" visible="off" length="middle"/>
+<pin name="AIO0" x="-35.56" y="25.4" visible="off" length="middle"/>
+<pin name="SPI_MISO/PIO3" x="-35.56" y="20.32" visible="off" length="middle"/>
+<pin name="SPI_CSB/PIO4" x="-35.56" y="15.24" visible="off" length="middle"/>
+<pin name="SPI_CLK/PIO5" x="-35.56" y="10.16" visible="off" length="middle"/>
+<pin name="SPI_MOSI/PIO2" x="-35.56" y="5.08" visible="off" length="middle"/>
+<pin name="SPI_PCM" x="-35.56" y="0" visible="off" length="middle"/>
+<pin name="UART_TX/PIO1" x="-35.56" y="-5.08" visible="off" length="middle"/>
+<pin name="UART_RX/PIO0" x="-35.56" y="-10.16" visible="off" length="middle"/>
+<pin name="VBUS" x="-35.56" y="-15.24" visible="off" length="middle" direction="pwr"/>
+<pin name="RST#" x="-35.56" y="-20.32" visible="off" length="middle"/>
+<pin name="BAT" x="-35.56" y="-25.4" visible="off" length="middle" direction="pwr"/>
+<pin name="POWER_EN" x="-35.56" y="-30.48" visible="off" length="middle"/>
+<pin name="VBUS_1.8V" x="-35.56" y="-35.56" visible="off" length="middle" direction="pwr"/>
+<pin name="GND" x="-35.56" y="-40.64" visible="off" length="middle" direction="pwr"/>
 <wire x1="-30.48" y1="45.72" x2="-30.48" y2="-45.72" width="0.6096" layer="94"/>
 <wire x1="-30.48" y1="-45.72" x2="30.48" y2="-45.72" width="0.6096" layer="94"/>
-<pin name="CHG_EXT" x="-20.32" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="BAT_SENSE" x="-15.24" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="PIO10/QSPI_FLASH_CLK" x="-10.16" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="PIO11/QSPI_IO_0" x="-5.08" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="PIO12/QSPI_FLASH_CS" x="0" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="PIO13/QSPI_IO_1" x="5.08" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="USB_N" x="10.16" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="USB_P" x="15.24" y="-50.8" visible="pad" length="middle" rot="R90"/>
-<pin name="PIO9/UART_CTS" x="20.32" y="-50.8" visible="pad" length="middle" rot="R90"/>
+<pin name="CHG_EXT" x="-20.32" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="BAT_SENSE" x="-15.24" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="PIO10/QSPI_FLASH_CLK" x="-10.16" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="PIO11/QSPI_IO_0" x="-5.08" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="PIO12/QSPI_FLASH_CS" x="0" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="PIO13/QSPI_IO_1" x="5.08" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="USB_N" x="10.16" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="USB_P" x="15.24" y="-50.8" visible="off" length="middle" rot="R90"/>
+<pin name="PIO9/UART_CTS" x="20.32" y="-50.8" visible="off" length="middle" rot="R90"/>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="45.72" width="0.6096" layer="94"/>
 <wire x1="30.48" y1="45.72" x2="-30.48" y2="45.72" width="0.6096" layer="94"/>
-<pin name="PIO6" x="35.56" y="-40.64" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO7" x="35.56" y="-35.56" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO8/UART_RTS" x="35.56" y="-30.48" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO18" x="35.56" y="-25.4" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO19" x="35.56" y="-20.32" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO20" x="35.56" y="-15.24" visible="pad" length="middle" rot="R180"/>
-<pin name="PIO21" x="35.56" y="-10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="MIC_BIAS" x="35.56" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="MIC_AN" x="35.56" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="MIC_AP" x="35.56" y="5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="MIC_BN" x="35.56" y="10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="MIC_BP" x="35.56" y="15.24" visible="pad" length="middle" rot="R180"/>
-<pin name="SPK_R_N1" x="35.56" y="20.32" visible="pad" length="middle" rot="R180"/>
-<pin name="SPK_R_P1" x="35.56" y="25.4" visible="pad" length="middle" rot="R180"/>
-<pin name="SPK_L_N1" x="35.56" y="30.48" visible="pad" length="middle" rot="R180"/>
-<pin name="SPK_L_P1" x="35.56" y="35.56" visible="pad" length="middle" rot="R180"/>
-<pin name="RFOUT" x="35.56" y="40.64" visible="pad" length="middle" rot="R180"/>
+<pin name="PIO6" x="35.56" y="-40.64" visible="off" length="middle" rot="R180"/>
+<pin name="PIO7" x="35.56" y="-35.56" visible="off" length="middle" rot="R180"/>
+<pin name="PIO8/UART_RTS" x="35.56" y="-30.48" visible="off" length="middle" rot="R180"/>
+<pin name="PIO18" x="35.56" y="-25.4" visible="off" length="middle" rot="R180"/>
+<pin name="PIO19" x="35.56" y="-20.32" visible="off" length="middle" rot="R180"/>
+<pin name="PIO20" x="35.56" y="-15.24" visible="off" length="middle" rot="R180"/>
+<pin name="PIO21" x="35.56" y="-10.16" visible="off" length="middle" rot="R180"/>
+<pin name="MIC_BIAS" x="35.56" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="MIC_AN" x="35.56" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="MIC_AP" x="35.56" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="MIC_BN" x="35.56" y="10.16" visible="off" length="middle" rot="R180"/>
+<pin name="MIC_BP" x="35.56" y="15.24" visible="off" length="middle" rot="R180"/>
+<pin name="SPK_R_N1" x="35.56" y="20.32" visible="off" length="middle" rot="R180"/>
+<pin name="SPK_R_P1" x="35.56" y="25.4" visible="off" length="middle" rot="R180"/>
+<pin name="SPK_L_N1" x="35.56" y="30.48" visible="off" length="middle" rot="R180"/>
+<pin name="SPK_L_P1" x="35.56" y="35.56" visible="off" length="middle" rot="R180"/>
+<pin name="RFOUT" x="35.56" y="40.64" visible="off" length="middle" rot="R180"/>
 <text x="-30.48" y="-48.26" size="1.27" layer="94">&gt;NAME</text>
 <text x="-29.21" y="40.64" size="1.27" layer="94" rot="R180" align="center-right">LED2</text>
 <text x="-29.21" y="35.56" size="1.27" layer="94" rot="R180" align="center-right">LED1</text>
