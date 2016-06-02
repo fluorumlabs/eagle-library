@@ -337,7 +337,7 @@
 </technology>
 </technologies>
 </device>
-<device name="BC558" package="TO92">
+<device name="BC556" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
