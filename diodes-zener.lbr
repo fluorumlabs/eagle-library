@@ -587,7 +587,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MMSZ5240BT1G" package="SOD123" >
+<device name="" package="SOD123" >
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
