@@ -582,6 +582,24 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MMSZ5240BT1G" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123" >
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="863-MMSZ5240BT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
